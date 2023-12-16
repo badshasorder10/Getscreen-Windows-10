@@ -11,10 +11,10 @@ jobs:
     runs-on: [windows-latest]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/badshasorder10@gmail.com
     
     - name: Set Up MS Build
-      uses: microsoft/setup-msbuild@v1
+      uses: microsoft/badshasorder10@gmail.com
       
     - name: Restore dependencies
       run: nuget restore Solution.sln
